@@ -1,0 +1,105 @@
+body{
+  background: linear-gradient(to right, rgb(91, 124, 156), rgb(51, 209, 99)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.App {
+  text-align: center;
+  background: #00416A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.itemsBtnDiv{
+  margin:auto;
+  /* background: #0c201c; */
+  width:50%;
+  display:flex;
+  justify-content: space-around;
+}
+ .btn {
+    
+  background: #00416A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius:25px 25px 25px 25px;
+  margin:10px;
+  cursor: pointer;
+}
+.headerBtn {
+    
+  background: #00416A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgb(91, 124, 156), rgb(51, 209, 99)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius:25px 25px 25px 25px;
+  margin:10px;
+  cursor: pointer;
+}
+
+.subjectItem{
+  background:blue;
+  float: right;
+  margin-right: 6%;
+  border-radius:25px;
+  font-size: 150%;
+}
+.questionCount{
+  margin-left: 7%;
+}
+ .questionContainer{
+  width:90%;
+  display:flex;
+  margin:10px auto;
+  
+ 
+}
+.question{
+ 
+  margin:0.5%;
+  background: #00416A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width:48%;
+  display:block;
+  border-radius:25px;
+  border:black 1px solid;
+}
+ .answer{
+  margin:0.5%;
+  background: #00416A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 25px;
+  display:block;
+  width:58%;
+  border:black 1px solid;
+  white-space: pre-line;
+  white-space: pre-wrap;
+}
+.inputQuestion{
+  width: 25%;
+  height: 20%;
+  margin: 20px;
+}
+.addQuestionsDiv{
+  
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  
+}
