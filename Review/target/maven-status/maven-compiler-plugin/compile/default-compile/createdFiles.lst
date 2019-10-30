@@ -1,0 +1,6 @@
+com\joel\reviewapprestapi\security\IMSecurityConfiguration.class
+com\joel\reviewapprestapi\ReviewApplication.class
+com\joel\reviewapprestapi\model\Questions.class
+com\joel\reviewapprestapi\service\QuestionsServices.class
+com\joel\reviewapprestapi\controllers\QuestionController.class
+com\joel\reviewapprestapi\repository\QuestionsRepository.class
